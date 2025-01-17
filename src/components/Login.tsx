@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import styles from "./login.module.scss"; // Import the styles
+import styles from "./Login.module.scss"; // Import the styles
 import googleIcon from "../assets/google.png"; // Import Google icon
 import linkedinIcon from "../assets/linkedin.png"; // Import LinkedIn icon
 import logo from "../assets/logo_brand.svg";
