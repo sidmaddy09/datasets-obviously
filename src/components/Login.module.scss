@@ -112,8 +112,7 @@
 }
 
 .groupIcon {
-    font-size: 2rem; // Adjust size
-    color: #666; // Adjust color
-    margin-bottom: 0.5rem; // Add space below the icon
-    display: block; // Ensure it's on its own line
+    border: 2px #ccc;      /* Border color and width */     /* Make it circular (optional) */
+    padding: 8px;               /* Add padding for spacing */
+    background-color:#F5F5F5;
   }

@@ -3,8 +3,7 @@ import styles from "./Login.module.scss"; // Import the styles
 import googleIcon from "../assets/google.png"; // Import Google icon
 import linkedinIcon from "../assets/linkedin.png"; // Import LinkedIn icon
 import logo from "../assets/logo_brand.svg";
-import GroupIcon from "@mui/icons-material/Group";
-
+import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
 interface LoginProps {
     onLoginSuccess : () => void
 }
@@ -45,7 +44,7 @@ const Login: React.FC<LoginProps> = ({ onLoginSuccess }) => {
     <div className={styles.container}>
       <img src={logo} alt="ObviouslyAI" className={styles.logo} />
       <div className={styles.formContainer}>
-        <GroupIcon className={styles.groupIcon} />
+        <PeopleOutlineIcon className={styles.groupIcon} />
         <h2 className={styles.title}>Sign In</h2>
         <p className={styles.subtitle}>Welcome back! Let's get started with AI</p>
         <form
